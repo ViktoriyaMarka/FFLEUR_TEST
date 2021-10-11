@@ -1,0 +1,245 @@
+footer .contacts .email, footer .contacts .phone, footer .contacts .links a, footer .subscribe .description, footer .subscribe .form_input .input_text, footer .subscribe .form_checkbox .text, footer .under_line .rules, footer .under_line .link {
+  font-family: Proxima Nova;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 141.4%;
+}
+
+@media (max-width: 895px) {
+  .products .products_scroll .product_base {
+    border: 7px solid #292E48;
+  }
+  .products {
+    margin-top: 30px;
+  }
+  .products .products_titles .products_title {
+    font-size: 35px;
+  }
+  .products .products_scroll .product_text .product_title {
+    font-size: 25px;
+  }
+}
+
+footer {
+  margin-top: 131px;
+  padding-top: 102px;
+  background: linear-gradient(261.25deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(81.06deg, rgba(255, 255, 255, 0.2) -0.3%, rgba(0, 0, 0, 0) 100%), #071042;
+}
+
+footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(218, 218, 218, 0.22);
+}
+
+footer .title {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #B9B9B9;
+}
+
+footer .contacts .email {
+  margin-bottom: 13px;
+  font-size: 16px;
+  color: #B9B9B9;
+}
+
+footer .contacts .phone {
+  margin-bottom: 13px;
+  font-size: 16px;
+  color: #B9B9B9;
+}
+
+footer .contacts .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .contacts .links a {
+  margin-left: 16px;
+  font-size: 16px;
+  color: #B9B9B9;
+}
+
+footer .contacts .links a:first-child {
+  margin-left: 0;
+}
+
+footer .subscribe .description {
+  margin-bottom: 15px;
+  max-width: 350px;
+  font-size: 16px;
+  line-height: 141.4%;
+  color: #B9B9B9;
+}
+
+footer .subscribe .form_input {
+  margin-bottom: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .subscribe .form_input .input_text {
+  margin-right: 8px;
+  padding: 9px 0 9px 15px;
+  width: 263px;
+  height: 38px;
+  border: 1px solid #B9B9B9;
+  background: none;
+  outline: none;
+  font-size: 14px;
+  color: #B9B9B9;
+}
+
+footer .subscribe .form_input .input_button {
+  width: 100px;
+  height: 38px;
+  outline: none;
+  background: none;
+  border: 1px solid #B9B9B9;
+  cursor: pointer;
+}
+
+footer .subscribe .form_checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .subscribe .form_checkbox .input_checkbox {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  background-color: #071042;
+}
+
+footer .subscribe .form_checkbox .text {
+  max-width: 309px;
+  font-size: 12px;
+  line-height: 141.4%;
+  color: #B9B9B9;
+}
+
+footer .under_line {
+  padding: 31px 0 31px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .under_line .rules {
+  font-size: 16px;
+  line-height: 141.4%;
+  color: #B9B9B9;
+}
+
+footer .under_line .link {
+  font-size: 16px;
+  line-height: 141.4%;
+  color: #B9B9B9;
+}
+
+@media (max-width: 1024px) {
+  .logo img {
+    width: 200px;
+  }
+  footer .subscribe .form_input .input_text {
+    width: 200px;
+  }
+  footer .subscribe .description {
+    max-width: 300px;
+  }
+  footer .subscribe .form_checkbox .text {
+    max-width: 295px;
+  }
+}
+
+@media (max-width: 895px) {
+  footer .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  footer .contacts .links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subscribe {
+    margin-bottom: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .subscribe .form_input {
+    width: 100%;
+  }
+  footer .subscribe .form_input .input_text {
+    width: 100%;
+  }
+  footer .subscribe .form_checkbox .text {
+    text-align: left;
+  }
+  .logo {
+    margin-bottom: 44px;
+  }
+  .contacts {
+    margin-bottom: 44px;
+  }
+  footer .title {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 535px) {
+  .under_line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  footer .under_line .link {
+    margin-bottom: 17px;
+  }
+}
+
+@media (max-width: 414px) {
+  footer .title {
+    font-size: 20px;
+  }
+  footer .subscribe .description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 355px) {
+  footer .subscribe .form_input .input_text {
+    width: 150px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

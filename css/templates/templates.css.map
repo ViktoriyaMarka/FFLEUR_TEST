@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAgLA,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,SAAS,CAAC,gBAAgB,CAAC,aAAa,CAAC;IACvC,MAAM,EAAE,iBAAiB;GAC1B;EAED,AAAA,SAAS,CAAC;IACR,UAAU,EAAE,IAAI;GACjB;EAED,AAAA,SAAS,CAAC,gBAAgB,CAAC,eAAe,CAAC;IACzC,SAAS,EAAE,IAAI;GAChB;EAED,AAAA,SAAS,CAAC,gBAAgB,CAAC,aAAa,CAAC,cAAc,CAAC;IACtD,SAAS,EAAE,IAAI;GAChB",
+    "sources": [
+        "templates.scss"
+    ],
+    "names": [],
+    "file": "templates.css"
+}

@@ -1,0 +1,55 @@
+@import "../../templates/templates.scss";
+@import "../../fonts_style/fonts_style.scss";
+@import "../../header/header.scss";
+@import "../../footer/footer.scss";
+
+* {
+    @extend %all;
+}
+
+header {
+    margin-bottom: 91px;
+}
+
+.header_block2 {
+    display: none;
+}
+
+.container {
+    @extend %container;
+}
+
+.title {
+    margin-bottom: 28px;
+    @extend %times_new_roman;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.description {
+    margin-bottom: 91px;
+    @extend %proxima_nova;
+    font-size: 20px;
+    line-height: 154.4%;
+}
+
+.policy_header{
+    .main{
+        margin-bottom: 100px;
+        .main_title{
+            margin-bottom: 28px;
+            @extend %times_new_roman;
+            font-size: 48px;
+            line-height: 55px;
+        }
+
+        p{
+            @extend %proxima_nova;
+            font-size: 20px;
+            line-height: 154.4%;
+        }
+
+    }
+
+
+}

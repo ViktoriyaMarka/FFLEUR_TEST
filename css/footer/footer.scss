@@ -1,0 +1,236 @@
+@import "../templates/templates.scss";
+
+
+footer{
+    margin-top: 131px;
+    padding-top: 102px;
+    // height: 403px;
+    background: linear-gradient(261.25deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(81.06deg, rgba(255, 255, 255, 0.2) -0.3%, rgba(0, 0, 0, 0) 100%), #071042;
+
+  .wrapper{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(218, 218, 218, 0.22);
+  }
+
+
+  .title{
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: #B9B9B9;
+  }
+
+  .contacts{
+    
+    .email{
+      margin-bottom: 13px;
+      @extend %proxima_nova;
+      font-size: 16px;
+      color: #B9B9B9;
+    }
+
+    .phone{
+      margin-bottom: 13px;
+      @extend %proxima_nova;
+      font-size: 16px;
+      color: #B9B9B9;
+    }
+
+    .links{
+      display: flex;
+      a{
+        margin-left: 16px;
+        @extend %proxima_nova;
+        font-size: 16px;
+        color: #B9B9B9;
+        &:first-child{
+          margin-left: 0;
+        }
+      }
+    }
+
+  }
+
+  .subscribe{
+    .description{
+      margin-bottom: 15px;
+      max-width: 350px;
+      @extend %proxima_nova;
+      font-size: 16px;
+      line-height: 141.4%;
+      color: #B9B9B9;
+    }
+
+    .form_input{
+      margin-bottom: 13px;
+      display: flex;
+      // flex-direction: column;
+      
+      .input_text{
+        margin-right: 8px;
+        padding: 9px 0 9px 15px;
+        width: 263px;
+        height: 38px;
+        border: 1px solid #B9B9B9;
+        background:none;
+        outline:none;
+
+        @extend %proxima_nova;
+        font-size: 14px;
+        color: #B9B9B9;
+      }
+
+      .input_button{
+        width: 100px;
+        height: 38px;
+        outline:none;
+        background:none;
+        border: 1px solid #B9B9B9;
+        cursor: pointer;
+      }
+    }
+
+    .form_checkbox{
+      display: flex;
+      .input_checkbox{
+        margin-right: 12px;
+        width: 18px;
+        height: 18px;
+        background-color: #071042;
+      }
+
+      .text{
+        @extend %proxima_nova;
+        max-width: 309px;
+        font-size: 12px;
+        line-height: 141.4%;
+
+        color: #B9B9B9;
+      }
+    }
+
+  }
+
+  .under_line{
+    padding: 31px 0 31px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .rules{
+      @extend %proxima_nova;
+      font-size: 16px;
+      line-height: 141.4%;
+
+      color: #B9B9B9;
+    }
+
+    .link{
+      @extend %proxima_nova;
+      font-size: 16px;
+      line-height: 141.4%;
+
+      color: #B9B9B9;
+    }
+  }
+
+}
+
+@media (max-width: 1024px) { 
+  .logo {
+
+    img {
+      width: 200px;
+    }
+  }
+
+  footer .subscribe .form_input .input_text {
+    width: 200px;
+  }
+
+  footer .subscribe .description {
+    max-width: 300px;
+  }
+
+  footer .subscribe .form_checkbox .text {
+    max-width: 295px;
+  }
+}
+
+@media (max-width: 895px) { 
+
+  footer .wrapper {
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  footer .contacts .links {
+    justify-content: center;
+  }
+
+  
+  .subscribe {
+    margin-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .subscribe .form_input {
+    width: 100%;
+  }
+
+  footer .subscribe .form_input .input_text {
+    width: 100%;
+  }
+
+  footer .subscribe .form_checkbox .text {
+    text-align: left;
+  }
+
+  .logo {
+    margin-bottom: 44px;
+  }
+
+  .contacts {
+    margin-bottom: 44px;
+  }
+
+  footer .title {
+    font-size: 23px;
+  }
+
+}
+
+@media (max-width: 535px) { 
+  .under_line{
+    flex-direction: column-reverse;
+  }
+
+  footer .under_line .link {
+    margin-bottom: 17px;
+  }
+}
+
+@media (max-width: 414px) { 
+  footer .title {
+    font-size: 20px;
+  }
+
+  footer .subscribe .description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 355px) { 
+  footer .subscribe .form_input .input_text {
+    width: 150px;
+  }
+}
+
+

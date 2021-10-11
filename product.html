@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Продукт</title>
+    <link rel="stylesheet" href="../js/slick/slick.css" />
+    <link rel="stylesheet" href="../js/slick/slick-theme.css" />
+    <link rel="stylesheet" href="../css/pages/product_page/product_page.css" />
+    <link rel="stylesheet" href="../css/header/header.css" />
+    <link rel="stylesheet" href="../css/footer/footer.css" />
+    <link rel="stylesheet" href="../css/templates/templates.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header class="header_main">
+      <div class="container">
+        <div class="wrapper">
+          <img
+            class="logo"
+            src="../img/logo/logo_small.png"
+            alt="Логотип Ffleur"
+          />
+          <div class="links">
+            <a class="link" href="#">НОВИНКИ</a>
+            <a class="link" href="#">Глаза</a>
+            <a class="link" href="#">Лицо</a>
+            <a class="link" href="#">Губы</a>
+            <a class="link" href="#">Кисти</a>
+            <a class="link" href="#">Примерка оттенков</a>
+          </div>
+          <!-- /.links -->
+          <div class="functions">
+            <a href="#" class="function">
+              <img src="../img/icon/search.svg" alt="Поиск" />
+            </a>
+            <a href="#" class="function"
+              ><img src="../img/icon/user.svg" alt="Личный кабинет"
+            /></a>
+            <a href="#" class="function"
+              ><img src="../img/icon/favourite.svg" alt="Избранные товары"
+            /></a>
+          </div>
+          <!-- /.functions -->
+        </div>
+        <!-- /.wrapper -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <header class="header_block2">
+      <img
+        class="logo_header_block2"
+        src="../img/logo/logo_small.png"
+        alt="Логотип Ffleur"
+      />
+      <div class="links">
+        <a href="#" class="link">
+          <img src="../img/icon/search.svg" alt="Поиск" />
+        </a>
+        <div class="menu_icon">
+          <span></span>
+        </div>
+        <!-- /.menu_icon -->
+      </div>
+      <!-- /.links -->
+      <div class="menu_body">
+        <ul class="menu_body_links">
+          <li>
+            <a href="#">НОВИНКИ</a>
+          </li>
+          <li>
+            <a href="#">Для глаз</a>
+          </li>
+          <li>
+            <a href="#">Для лица</a>
+          </li>
+          <li>
+            <a href="#">Для губ</a>
+          </li>
+          <li>
+            <a href="#">Кисти</a>
+          </li>
+          <li>
+            <a href="#">Примерка оттенков</a>
+          </li>
+        </ul>
+        <!-- /.menu_body_links -->
+        <div class="menu_body_under_line">
+          <ul class="menu_body_under_line_links">
+            <li><a href="#">Регистрация</a></li>
+          </ul>
+          <!-- /.menu_body_under_line_links -->
+        </div>
+        <!-- /.menu_body_under_line -->
+      </div>
+      <!-- /.menu_body -->
+    </header>
+
+    <nav>
+      <div class="container">
+        <div class="wrapper">
+          <a class="sublink" href="#">Лицо</a>/
+          <a class="sublink" href="#">Тени для век</a>/
+          <a class="sublink" href="#">Professional Colors </a>
+        </div>
+        <!-- /.wrapper -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <section class="product">
+      <div class="container">
+        <div class="wrapper_product">
+          <form action="POST">
+            <div class="product_form">
+              <h1 class="product_form_title">ФОРМА ЗАКАЗА</h1>
+              <p class="product_form_subtitle">
+                Заполните все необходимые поля для оформления заявки. Перед
+                оформлением заявки следует ознакомиться с
+                <a href="../html/policy.html">Политикой конфиденциальности</a>
+              </p>
+              <div class="wrapper_product_form">
+                <i class="bi bi-x-lg close"></i>
+                <div class="about_user">
+                  <h3 class="about_product_title">О ЗАКАЗЧИКЕ</h3>
+                  <div class="inputs">
+                    <input type="email" placeholder="Email" />
+
+                    <!-- <div class="wrapper_inputs"> -->
+                    <input type="text" placeholder="Фамилия" />
+                    <input type="text" placeholder="Имя" />
+                    <!-- </div> -->
+                    <!-- /.wrapper -->
+
+                    <div class="wrapper_inputs">
+                      <input type="text" placeholder="Город" />
+                      <input type="tel" placeholder="Номер телефона" />
+                    </div>
+                    <!-- /.wrapper -->
+                  </div>
+                </div>
+                <!-- /.about_user -->
+                <div class="about_product">
+                  <h3 class="about_product_title">О ТОВАРЕ</h3>
+
+                  <div class="about_product_wrapper">
+                    <p>Наименование категории: <b>Тени для век</b></p>
+                    <p>Наименование товара: <b>PROFESSIONAL COLORS</b></p>
+                    <div class="change_color">
+                      <p>Выбранный цвет:</p>
+                      <div class="colors_items">
+                        <div class="colors_items_wrapper">
+                          <div
+                            class="colors_item select"
+                            style="background-color: rgb(106, 106, 151)"
+                          ></div>
+                          <!-- /.colors_item -->
+                        </div>
+                        <!-- /.colors_items_wrapper -->
+                      </div>
+                      <!-- /.block -->
+                    </div>
+                    <!-- /.change_color -->
+                    <label style="margin-right: 20px" for="number"
+                      >Количество ящиков:
+                    </label>
+                    <input
+                      class="count_container"
+                      type="number"
+                      name="number"
+                      id=""
+                      value="1"
+                    />
+                  </div>
+                  <a class="public_task" href="#">ОТПРАВИТЬ ЗАЯВКУ</a>
+                </div>
+                <!-- /.about_product -->
+              </div>
+            </div>
+          </form>
+          <div class="all_colors">
+            <div class="color active">
+              <div class="wrapper">
+                <img
+                  src="../img/products/PROFESSIONAL COLORS/color1.jpg"
+                  alt="color1"
+                />
+              </div>
+              <!-- /.wrapper -->
+            </div>
+            <!-- /.color -->
+            <div class="color">
+              <div class="wrapper">
+                <img
+                  src="../img/products/PROFESSIONAL COLORS/color2.jpg"
+                  alt="color2"
+                />
+              </div>
+              <!-- /.wrapper -->
+            </div>
+            <!-- /.color -->
+            <div class="color">
+              <div class="wrapper">
+                <img
+                  src="../img/products/PROFESSIONAL COLORS/color3.jpg"
+                  alt="color3"
+                />
+              </div>
+              <!-- /.wrapper -->
+            </div>
+            <!-- /.color -->
+            <div class="color">
+              <div class="wrapper">
+                <img
+                  src="../img/products/PROFESSIONAL COLORS/color4.jpg"
+                  alt="color4"
+                />
+              </div>
+              <!-- /.wrapper -->
+            </div>
+            <!-- /.color -->
+          </div>
+          <!-- /.all_colors -->
+
+          <div class="product_card main">
+            <div class="product_base">
+              <p class="product_base_block_title"></p>
+              <img
+                src="../img/products/PERFECT EYELINER.jpg"
+                alt="PERFECT EYELINER"
+              />
+            </div>
+            <!-- /.product_base -->
+            <div class="link_event">
+              <div class="wrapper">
+                <a class="event" href="#">ЗАКАЗАТЬ</a>
+              </div>
+              <!-- /.wrapper -->
+            </div>
+            <!-- /.link_event -->
+          </div>
+          <!-- /.product_card -->
+
+          <div class="product_info">
+            <div class="wrapper">
+              <h2 class="subtitle">Тени для век</h2>
+              <h1 class="title">PROFESSIONAL COLORS</h1>
+            </div>
+            <!-- /.wrapper -->
+            <div class="change_color">
+              <p>Цвета товара:</p>
+              <div class="colors_items">
+                <div class="colors_items_wrapper">
+                  <div
+                    class="colors_item select"
+                    style="background-color: rgb(106, 106, 151)"
+                  ></div>
+                  <!-- /.colors_item -->
+                  <div
+                    class="colors_item"
+                    style="background-color: rgb(139, 98, 98)"
+                  ></div>
+                  <!-- /.colors_item -->
+                  <div
+                    class="colors_item"
+                    style="background-color: rgb(102, 153, 102)"
+                  ></div>
+                  <!-- /.colors_item -->
+                </div>
+                <!-- /.colors_items_wrapper -->
+              </div>
+              <!-- /.block -->
+            </div>
+            <!-- /.change_color -->
+            <h3 class="description">
+              Профессиональная палитра тонов для тех, кто любит жить ярко и
+              ценит безупречное качество. Их отличает нежная текстура и
+              великолепная стойкость. Они ровно ложатся и хорошо
+              растушевываются. Содержат увлажняющие компоненты.
+            </h3>
+            <ul class="property">
+              <li>288 шт. в ящике</li>
+              <li>18 упаковок</li>
+              <li>х12 шт. одного вида</li>
+            </ul>
+            <!-- /.property -->
+          </div>
+          <!-- /.product_info -->
+        </div>
+        <!-- /.wrapper_product -->
+
+        <section class="similar">
+          <p class="title">ПОХОЖИЕ ТОВАРЫ</p>
+          <div class="products_scroll">
+            <div class="product_card">
+              <div class="product_base">
+                <div class="product_base_opacity_block">
+                  <a href="#" class="product_base_opacity_block_text"
+                    >Подробнее</a
+                  >
+                </div>
+                <!-- /.product_base_opacity_block -->
+                <div class="product_base_title_block">
+                  <p class="product_base_title">БЕСТСЕЛЛЕР</p>
+                  <i class="bi bi-heart-fill"> </i>
+                </div>
+                <!-- /.product_base_title_block -->
+
+                <img
+                  class="product_image"
+                  src="../img/products/PERFECT EYELINER.jpg"
+                  alt="PERFECT EYELINER"
+                />
+              </div>
+              <!-- /.product_base -->
+              <div class="product_text">
+                <h4 class="product_subtitle">Подводка для глаз</h4>
+                <h3 class="product_title">PERFECT EYELINER</h3>
+                <h5 class="product_description">
+                  Водостойкая подводка для глаз Ffleur гигиенична и удобна в
+                  применении. Дает четкую линию, интенсивный цвет, не раздражает
+                  кожу вокруг глаз.
+                </h5>
+              </div>
+              <!-- /.product_text -->
+            </div>
+            <!-- /.product_card -->
+            <div class="product_card">
+              <div class="product_base">
+                <div class="product_base_opacity_block">
+                  <a href="#" class="product_base_opacity_block_text"
+                    >Подробнее</a
+                  >
+                </div>
+                <!-- /.product_base_opacity_block -->
+                <div class="product_base_title_block">
+                  <p class="product_base_title">БЕСТСЕЛЛЕР</p>
+                  <i class="bi bi-heart-fill"> </i>
+                </div>
+                <!-- /.product_base_title_block -->
+
+                <img
+                  class="product_image"
+                  src="../img/products/PERFECT EYELINER.jpg"
+                  alt="PERFECT EYELINER"
+                />
+              </div>
+              <!-- /.product_base -->
+              <div class="product_text">
+                <h4 class="product_subtitle">Подводка для глаз</h4>
+                <h3 class="product_title">PERFECT EYELINER</h3>
+                <h5 class="product_description">
+                  Водостойкая подводка для глаз Ffleur гигиенична и удобна в
+                  применении. Дает четкую линию, интенсивный цвет, не раздражает
+                  кожу вокруг глаз.
+                </h5>
+              </div>
+              <!-- /.product_text -->
+            </div>
+            <!-- /.product_card -->
+            <div class="product_card">
+              <div class="product_base">
+                <div class="product_base_opacity_block">
+                  <a href="#" class="product_base_opacity_block_text"
+                    >Подробнее</a
+                  >
+                </div>
+                <!-- /.product_base_opacity_block -->
+                <div class="product_base_title_block">
+                  <p class="product_base_title">БЕСТСЕЛЛЕР</p>
+                  <i class="bi bi-heart-fill"> </i>
+                </div>
+                <!-- /.product_base_title_block -->
+
+                <img
+                  class="product_image"
+                  src="../img/products/PERFECT EYELINER.jpg"
+                  alt="PERFECT EYELINER"
+                />
+              </div>
+              <!-- /.product_base -->
+              <div class="product_text">
+                <h4 class="product_subtitle">Подводка для глаз</h4>
+                <h3 class="product_title">PERFECT EYELINER</h3>
+                <h5 class="product_description">
+                  Водостойкая подводка для глаз Ffleur гигиенична и удобна в
+                  применении. Дает четкую линию, интенсивный цвет, не раздражает
+                  кожу вокруг глаз.
+                </h5>
+              </div>
+              <!-- /.product_text -->
+            </div>
+            <!-- /.product_card -->
+            <div class="product_card">
+              <div class="product_base">
+                <div class="product_base_opacity_block">
+                  <a href="#" class="product_base_opacity_block_text"
+                    >Подробнее</a
+                  >
+                </div>
+                <!-- /.product_base_opacity_block -->
+                <div class="product_base_title_block">
+                  <p class="product_base_title">БЕСТСЕЛЛЕР</p>
+                  <i class="bi bi-heart-fill"> </i>
+                </div>
+                <!-- /.product_base_title_block -->
+
+                <img
+                  class="product_image"
+                  src="../img/products/PERFECT EYELINER.jpg"
+                  alt="PERFECT EYELINER"
+                />
+              </div>
+              <!-- /.product_base -->
+              <div class="product_text">
+                <h4 class="product_subtitle">Подводка для глаз</h4>
+                <h3 class="product_title">PERFECT EYELINER</h3>
+                <h5 class="product_description">
+                  Водостойкая подводка для глаз Ffleur гигиенична и удобна в
+                  применении. Дает четкую линию, интенсивный цвет, не раздражает
+                  кожу вокруг глаз.
+                </h5>
+              </div>
+              <!-- /.product_text -->
+            </div>
+            <!-- /.product_card -->
+          </div>
+          <!-- /.products_scroll -->
+        </section>
+        <!-- /.similar -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.product -->
+
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <div class="logo">
+            <img src="../img/logo/logo_large.png" alt="Логотип Ffleur" />
+          </div>
+          <!-- /.logo -->
+          <div class="contacts">
+            <p class="title">Наши контакты</p>
+            <p class="email">test@gmail.com</p>
+            <p class="phone">+7 999 999 99 99</p>
+            <div class="links">
+              <a href="#">VKontakte</a>
+              <a href="#">Instagram</a>
+              <a href="#">Facebook</a>
+            </div>
+            <!-- /.links -->
+          </div>
+          <!-- /.contacts -->
+          <div class="subscribe">
+            <p class="title">Подпишитесь на нас</p>
+            <p class="description">
+              Введите ваш Email, чтобы получать уведомления о новых товарах
+            </p>
+            <div class="form_input">
+              <input class="input_text" type="text" placeholder="Email" />
+              <button class="input_button" method="POST">
+                <img src="../img/icon/Arrow_Email.svg" alt="-->" />
+              </button>
+            </div>
+            <!-- /.input_button -->
+            <div class="form_checkbox">
+              <input class="input_checkbox" type="checkbox" name="" id="" />
+              <p class="text">
+                Отправляя данные электронной почты, вы соглашаетесь получать
+                рекламные электронные письма.
+              </p>
+            </div>
+            <!-- /.checkbox_text -->
+          </div>
+          <!-- /.subscribe -->
+        </div>
+        <!-- /.wrapper -->
+        <div class="under_line">
+          <p class="rules">© Ffleur. Все права защищены</p>
+          <a class="link" href="#">Политика конфиденциальности</a>
+        </div>
+        <!-- /.under_line -->
+      </div>
+      <!-- /.container -->
+    </footer>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <!-- <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script> -->
+    <script src="../js/slick/slick.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
