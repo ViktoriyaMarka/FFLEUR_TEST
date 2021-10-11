@@ -47,10 +47,6 @@ body {
   overflow-x: hidden;
 }
 
-.menu_body {
-  width: 0;
-}
-
 .header_main {
   background: linear-gradient(269.73deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(89.73deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #071042;
 }
@@ -179,7 +175,7 @@ body {
     position: absolute;
     top: 0;
     right: -100%;
-    width: 100%;
+    width: 0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     height: 100vh;
@@ -191,6 +187,7 @@ body {
     display: block;
   }
   .header_block2 .menu_body.active {
+    width: 100%;
     right: 0;
   }
   .header_block2 .menu_body.active::after {
