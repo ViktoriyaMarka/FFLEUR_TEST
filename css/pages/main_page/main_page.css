@@ -1021,7 +1021,7 @@ main {
     display: none;
   }
   .products_news {
-    margin: 0 -33px 0 -33px;
+    margin: 0 -32px 0 -32px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
